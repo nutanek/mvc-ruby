@@ -1,4 +1,4 @@
-# Mvc Ruby
+# MVC Ruby
 Sorting numbers
 
 ## Running
