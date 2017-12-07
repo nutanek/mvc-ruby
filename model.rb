@@ -1,4 +1,4 @@
-class UserModel
+class SortModel
     def setSortedNums(sortedNumbers)
         @sortedNumbers = sortedNumbers
     end
