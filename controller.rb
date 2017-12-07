@@ -1,19 +1,19 @@
 class SortController
     def initialize(model, view)
-		@model = model
-		@view = view
+        @model = model
+        @view = view
     end
     
     def setNums
-		# render form
+        # render form
         strNumbers = @view.renderSortForm()
         
-		arrStrNumber = strNumbers.split(" ")
-		arrNumber = arrStrNumber.map { |x| x.to_i }
+        arrStrNumber = strNumbers.split(" ")
+        arrNumber = arrStrNumber.map { |x| x.to_i }
         sortedNumbers = sortArray(arrNumber)
-        
-		# set info
-		@model.setSortedNums(sortedNumbers)
+
+        # set info
+        @model.setSortedNums(sortedNumbers)
     end
     
     def getNums
