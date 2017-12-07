@@ -1,11 +1,11 @@
 class SortView
-	def renderUserForm
+	def renderSortForm
 		print "Enter set of number: \n"
 		strNumbers = gets.chomp
 		return strNumbers
 	end
 
-	def renderUserInfo(sortedNumbers)
+	def renderSortInfo(sortedNumbers)
 		puts "******** sorted nums ********"
 		puts sortedNumbers
 	end
